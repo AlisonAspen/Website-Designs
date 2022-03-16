@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica", sans-serif;
+}
+
+p {
+    font-family: "Georgia", serif;
+    padding: 20px 0px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    width: 100%;
+    display: block;
+    background-color: #205bf5;
+    color: white;
+}
+
+.nav-holder {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+button {
+    padding: 5px;
+    background-color: #FFA114;
+    color: white;
+    border: 2px solid #FFA114;
+    border-radius: 5px;
+}
+
+.main-holder {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.main-holder div {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.team-holder {
+    margin: 0 auto;
+}
+
+.team-block {
+    width: 200px;
+    padding: 100px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: #acc2fa;
+    color: white;
+}
