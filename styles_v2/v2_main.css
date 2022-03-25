@@ -7,12 +7,19 @@
 p {
     font-family: "Georgia", serif;
     padding: 20px 0px;
+    font-size: 12px;
 }
 
 a {
     text-decoration: none;
     text-align: center;
     color: black;
+    font-size: 10px;
+    padding: 25px;
+}
+
+.logo-holder {
+    padding: 20px;
 }
 
 h2 {
@@ -20,6 +27,12 @@ h2 {
     display: block;
     background-color: #205bf5;
     color: white;
+    font-size: 14px;
+    padding: 0.5em;
+}
+
+.menu-holder {
+    padding: 35px;
 }
 
 .nav-holder {
