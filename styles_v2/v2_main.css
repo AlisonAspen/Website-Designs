@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: "Helvetica", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 p {
@@ -22,6 +22,10 @@ a {
     padding: 20px;
 }
 
+h1{
+    font-size: 18px;
+} 
+
 h2 {
     width: 100%;
     display: block;
@@ -32,14 +36,24 @@ h2 {
 }
 
 .menu-holder {
-    padding: 35px;
-}
-
-.nav-holder {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 20px;
 }
+
+.menu-holder a:hover {
+    background-color: #FFA114;
+    color: white;
+}
+
+/*
+.logo {
+    position: absolute;
+    left: 25px;
+} */
 
 button {
     padding: 5px;
@@ -49,8 +63,14 @@ button {
     border-radius: 5px;
 }
 
+/*
+.login {
+    position: absolute;
+    right: 2px;
+} */
+
 .main-holder {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
@@ -60,17 +80,15 @@ button {
     width: 100%;
     margin-bottom: 15px;
 }
-
-.team-holder {
-    margin: 0 auto;
-}
-
 .team-block {
-    width: 200px;
-    padding: 100px;
-    margin: 20px;
     display: inline-block;
+    width: 250px;
+    height: 250px;
     text-align: center;
-    background-color: #acc2fa;
+    background-color: lightblue;
     color: white;
+}
+.team-block h1 {
+    position: relative;
+    top: 200px;
 }

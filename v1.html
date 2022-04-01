@@ -3,7 +3,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="sytles_v1/v1.css">
+    <link rel="stylesheet" href="styles_v1/v1.css">
 </head>
 <body>
     <nav>
@@ -19,6 +19,31 @@
             </div>
         </div>
     </nav> <!-- end nav -->
+
+    <!--slideshow sample-->
+    <div class="slideshow-container">
+        <div class="slides fade">
+            <img src="styles_v1/assets/laptop_graph_stock.jpg" alt="" style="width:100%">
+        </div>
+        <div class="slides fade">
+            <img src="styles_v1/assets/handshake_stock.jpg" alt="" style="width:100%">
+        </div>
+        <div class="slides fade">
+            <img src="styles_v1/assets/paper_graph_stock.jpg" alt="" style="width:100%">
+        </div>
+        <a class="prev" onclick="nextSlide(-1)">&#10094</a>
+        <a class="next" onclick="nextSlide(1)">&#10095</a>
+    </div>
+    <br>
+
+    <!--DOTS-->
+    <div class="dot-holder">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+    </div>
+    <!--end slideshow-->
+
     <div class="main-holder">
         <div class="content-card">
             <div>
