@@ -20,23 +20,15 @@ h1 {
  a {
      text-decoration: none;
      color: white;
+     font-size: 12px;
  }
 
 .nav-holder {
     width: 100%;
     height: 100px;
 }
- /* slideshow css */
-.slideshow-container {
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
-}
 
-.slides {
-    display: none;
-}
-.img-holder {
+#img-holder {
     width: 100%;
     height: 400px;
     background-image: url("assets/laptop_graph_stock.jpg");
@@ -89,8 +81,8 @@ h1 {
 }
 
 .dot {
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
     border-radius: 30px;
     background-color: #ffffff;
     display: inline-block;

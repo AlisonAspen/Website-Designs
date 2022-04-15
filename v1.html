@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <head>
+    <!-- meta tags to help with sizing -->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <!-- load in scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="styles_v1/assets/main.js"></script>
+    <!-- load fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- add in css stylesheet -->
     <link rel="stylesheet" href="styles_v1/v1.css">
 </head>
 
 <body>
     <nav>
-        <div class="img-holder"> 
+        <div id="img-holder"> 
             <div class="logo">
                 <img src="styles_v1/assets/logo_svg.svg" href="index.html" alt="" style="width: 30px;"> <a href="index.html">Lake 5 Media</a>
             </div>
@@ -21,9 +27,9 @@
                 <span class="login-button"><a href="">Login</a></span>
             </div>
             <div class="dot-holder">
-                <span class="dot active"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
+                <span class="dot active" onclick="loadPicture(0)"></span>
+                <span class="dot" onclick="loadPicture(1)"></span>
+                <span class="dot" onclick="loadPicture(2)"></span>
             </div>
         </div>
     </nav> <!-- end nav -->
