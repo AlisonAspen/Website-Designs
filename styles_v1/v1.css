@@ -39,9 +39,7 @@ h1 {
 }
 .logo {
     height: 50px;
-    position: absolute;
-    top: 10px;
-    left: 20px;
+
 }
 
 .logo img {
@@ -49,9 +47,8 @@ h1 {
     width: 50px;
 }
 .logo a {
-    position: absolute;
-    top: 15px;
-    left: 80px;
+    display: inline-block;
+   
     width: 200px;
 }
 
@@ -91,7 +88,10 @@ h1 {
 .dot.active {
     background-color: #5984f5;
 }
-
+.dot:hover {
+    cursor: pointer;
+    background-color: black;
+}
 button {
     width: 250px;
     border: none;
@@ -118,7 +118,7 @@ button {
     flex-wrap: wrap;
 }
 .content-card {
-    width: 80%;
+    width: 60%;
     border-radius: 15px;
     padding: 25px;
     margin-top: 25px;
@@ -130,6 +130,12 @@ button {
    width: 85%;
    margin: 0 auto;
    padding: 20px;
+}
+.contact {
+    width: 30%;
+}
+.contact-section {
+    text-align: right;
 }
 
 .footer-holder {
