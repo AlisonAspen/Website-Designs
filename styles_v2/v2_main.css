@@ -15,7 +15,7 @@ a {
     text-align: center;
     color: black;
     font-size: 10px;
-    padding: 25px;
+    
 }
 
 .logo-holder {
@@ -29,46 +29,47 @@ h1{
 h2 {
     width: 100%;
     display: block;
-    background-color: #205bf5;
+    background-color: #5984F5;
     color: white;
+    font-size: 18px;
+}
+h3 {
     font-size: 14px;
-    padding: 0.5em;
+    padding: 5px;
 }
 
 .menu-holder {
-    width: 80%;
-    margin: 0 auto;
+    width: 60%;
     display: flex;
-    flex-flow: row;
-    justify-content: center;
-    padding: 20px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+}
+.menu-holder a {
+    display: inline-block;
 }
 
 .menu-holder a:hover {
     background-color: #FFA114;
-    color: white;
+}
+.nav-options a {
+    padding: 0px 10px;
 }
 
-/*
-.logo {
-    position: absolute;
-    left: 25px;
-} */
-
 button {
-    padding: 5px;
     background-color: #FFA114;
     color: white;
     border: 2px solid #FFA114;
     border-radius: 5px;
 }
-
-/*
 .login {
-    position: absolute;
-    right: 2px;
-} */
-
+    text-align: center;
+    height: 25px;
+} 
+.login a {
+    padding: 5px;
+}
 .main-holder {
     width: 60%;
     margin: 0 auto;
@@ -80,15 +81,6 @@ button {
     width: 100%;
     margin-bottom: 15px;
 }
-.team-block {
-    display: inline-block;
-    width: 250px;
-    height: 250px;
-    text-align: center;
-    background-color: lightblue;
-    color: white;
-}
-.team-block h1 {
-    position: relative;
-    top: 200px;
+.content-card p {
+    padding: 10px;
 }
