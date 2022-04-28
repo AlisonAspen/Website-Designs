@@ -1,13 +1,14 @@
+/* --- GLOBAL SELECTORS --- */
 * {
     margin: 0px;
     padding: 0px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Helvetica", sans-serif;
 }
 
 p {
-    font-family: "Georgia", serif;
     padding: 20px 0px;
-    font-size: 12px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a {
@@ -17,70 +18,116 @@ a {
     font-size: 10px;
     
 }
-
-.logo-holder {
-    padding: 20px;
-}
-
 h1{
     font-size: 18px;
 } 
 
 h2 {
-    width: 100%;
-    display: block;
-    background-color: #5984F5;
     color: white;
     font-size: 18px;
+    padding: 4px;
+    font-style: italic;
 }
+
 h3 {
     font-size: 14px;
     padding: 5px;
 }
 
+/* ---- LOCAL SELECTORS --- */
+.logo-holder {
+    padding: 20px;
+}
+
 .menu-holder {
     width: 60%;
+    margin: 0 auto;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    margin: 0 auto;
     text-align: center;
-}
-.menu-holder a {
-    display: inline-block;
+    padding: 10px; 
 }
 
 .menu-holder a:hover {
     background-color: #FFA114;
 }
+
 .nav-options a {
     padding: 0px 10px;
+    font-weight: bold;
 }
 
 button {
     background-color: #FFA114;
     color: white;
     border: 2px solid #FFA114;
-    border-radius: 5px;
-}
-.login {
+    border-radius: 20px;
     text-align: center;
     height: 25px;
-} 
-.login a {
-    padding: 5px;
 }
+
+button a {
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.line-break {
+    width: 60%;
+    size: 1px;
+    margin: 0 auto;
+    background-color: #3D5293;
+}
+
 .main-holder {
     width: 60%;
+    padding-top: 10px;
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
+
 .main-holder div {
     width: 100%;
     margin-bottom: 15px;
 }
+
 .content-card p {
     padding: 10px;
+}
+
+.content-head {
+    width: 100%;
+    display: inline-block;
+  /*  padding: 0px 10px; */
+    background-color: #3D5293;
+}
+
+.app-card {
+    background-color: #F7F8FB;
+    display: inline-block;
+    width: 20%;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.app-card h3 {
+    font-style: italic;
+    font-size: 16px;
+    padding: 4px;
+}
+
+.app-card p {
+    font-size: 12px;
+}
+
+
+/* -----  MEDIA QUERIES ----- */
+@media screen and (max-width: 400px) {
+    .app-card {
+        display: none;
+    }
 }
